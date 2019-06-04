@@ -1,0 +1,19 @@
+body {
+  max-width: 500px;
+  margin: auto;
+  padding: 2em 4em;
+  background-color: DarkSeaGreen;
+}
+
+#addToDoForm {
+  font-size: 18px;
+}
+
+#newToDoText {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+#toDoList {
+  font-size: 16px;
+}
