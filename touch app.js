@@ -10,3 +10,20 @@ function onReady() {
 window.onload = function() {
   onReady();
  };
+
+ addToDoForm.addEventListener('submit', event => {
+   event.preventDefault();
+
+   // get the text
+let title = newToDoText.value;
+
+// create a new li
+let newLi = document.createElement('li');
+
+// create a new input
+let checkbox = document.createElement('input');
+
+// set the input's type to checkbox
+checkbox.type = "checkbox";
+ });
+}
