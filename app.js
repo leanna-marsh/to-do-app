@@ -11,11 +11,11 @@ function onReady() {
        title: newToDoText.value,
        complete: false
      });
-     newToDoText.value = '';
 
+     newToDoText.value = '';
+}
      renderTheUI();
 
-  });
 }
 
 function renderTheUI() {
